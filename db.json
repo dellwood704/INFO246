@@ -1,0 +1,51 @@
+{
+  "items": [
+    {
+      "@context": "https://flickr.com/",
+      "@type": "Photo",
+      "id": "1",
+      "name": "Pitons",
+      "description": "Photo of mountains in St. Lucia"
+    },
+    {
+      "@context": "https://flickr.com/",
+      "@type": "Photo",
+      "id": "2",
+      "name": "London Eye",
+      "description": "Photo of the London Eye at night"
+    },
+    {
+      "@context": "https://flickr.com/",
+      "@type": "Photo",
+      "id": "3",
+      "name": "Eiffel Tower",
+      "description": "Photo of Eiffel Tower with fireworks"
+    }
+  ],
+  "users": [
+    {
+      "@context": "https://flickr.com/",
+      "@type": "Person",
+      "id": "1",
+      "name": "Dana",
+      "description": "Comment on Pitons",
+      "itemId": "1"
+    },
+    {
+      "@context": "https://schema.org",
+      "@type": "Person",
+      "id": "2",
+      "name": "Larry",
+      "description": "Comment on London Eye",
+      "itemId": "2"
+    }
+  ],
+  "collection": {
+    "@context": "https://flickr.com/",
+    "@type": "Collection",
+    "name": "dana.ellwood's API",
+    "creator": "dana.ellwood",
+    "about": "An album of travel photos hosted on Flickr",
+    "url": "https://www.flickr.com/gp/197740392@N02/L07W947UB5"
+  }
+}
